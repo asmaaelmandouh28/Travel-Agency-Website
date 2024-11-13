@@ -1,0 +1,20 @@
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\bin\weeeeebb.dll.config
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\bin\weeeeebb.dll
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\bin\weeeeebb.pdb
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\obj\Debug\weeeeebb.dll
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\obj\Debug\weeeeebb.pdb
+C:\Users\dell\OneDrive\سطح المكتب\WEB\weeeeebb\weeeeebb\obj\Debug\weeeeebb.csprojResolveAssemblyReference.cache
+F:\My works\new web\weeeeebb\bin\weeeeebb.dll.config
+F:\My works\new web\weeeeebb\bin\weeeeebb.dll
+F:\My works\new web\weeeeebb\bin\weeeeebb.pdb
+F:\My works\new web\weeeeebb\obj\Debug\weeeeebb.csproj.AssemblyReference.cache
+F:\My works\new web\weeeeebb\obj\Debug\weeeeebb.csproj.CoreCompileInputs.cache
+F:\My works\new web\weeeeebb\obj\Debug\weeeeebb.dll
+F:\My works\new web\weeeeebb\obj\Debug\weeeeebb.pdb
+D:\Web Project\back\new web\weeeeebb\bin\weeeeebb.dll.config
+D:\Web Project\back\new web\weeeeebb\bin\weeeeebb.dll
+D:\Web Project\back\new web\weeeeebb\bin\weeeeebb.pdb
+D:\Web Project\back\new web\weeeeebb\obj\Debug\weeeeebb.csproj.AssemblyReference.cache
+D:\Web Project\back\new web\weeeeebb\obj\Debug\weeeeebb.csproj.CoreCompileInputs.cache
+D:\Web Project\back\new web\weeeeebb\obj\Debug\weeeeebb.dll
+D:\Web Project\back\new web\weeeeebb\obj\Debug\weeeeebb.pdb

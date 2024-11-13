@@ -1,0 +1,223 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user_set
+    </title>
+    <!-- css links  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/user.css">
+    <!-- js counter-->
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- js slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+
+<div class="row m-0 vh-100">
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light col-2 d-none d-lg-flex sticky-top" style="height: 100%;">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <i class="fa-solid fa-graduation-cap fa-2x me-1"></i>
+          <span class="fs-4">Sidebar</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="user_home.html" class="nav-link " aria-current="page">
+              <i class="fa-solid fa-house-chimney me-1 " width="16" height="16"></i>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark active ">
+              <i class="fa-solid fa-gauge-high me-1 " width="16" height="16"></i>
+              Setting
+            </a>
+          </li>
+        </ul>
+        <hr>
+        
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/ash.jpg" alt="" width="32" height="32" class="rounded-circle me-2">
+            <strong>ashraf</strong>
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+            <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="d-flex flex-column flex-shrink-0 bg-light col-1 d-inline d-lg-none .sticky-bottom " style="width: 4.5rem;">
+        <a href="#" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="visually-hidden">ias</span>
+        </a>
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+          <li>
+            <a href="user_home.html" class="nav-link  py-3 border-bottom" title="Products" data-bs-toggle="tooltip" data-bs-placement="right">
+              <i class="fa-solid fa-border-all me-1 "></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link active py-3 border-bottom" title="Customers" data-bs-toggle="tooltip" data-bs-placement="right">
+              <i class="fa-solid fa-user me-1 "></i>
+            </a>
+          </li>
+        </ul>
+        <div class="dropdown border-top">
+          <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/ash.jpg" alt="mdo" width="24" height="24" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+            <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+  
+
+
+
+    <div class="col col-lg-10 car-cont">
+        <div class="card mb-3 content">
+            <div class="card-body">
+                <h3 class="heading-small text-muted mb-4">User information</h3>
+                <div class="pl-lg-4">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="inp-group focused">
+                                <label class="inp-control-label" for="input-username">Username</label>
+                                <input type="text" id="input-username" class="inp-control inp-control-alternative"
+                                    placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="inp-group">
+                                <label class="inp-control-label" for="input-email">Email
+                                    address</label>
+                                <input type="email" id="input-email" class="inp-control inp-control-alternative"
+                                    placeholder="Email address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="inp-group">
+                                <label class="inp-control-label" for="input-first-name">First
+                                    name</label>
+                                <input type="text" id="input-first-name" class="inp-control inp-control-alternative"
+                                    placeholder="First name" value="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="inp-group">
+                                <label class="inp-control-label" for="input-last-name">Last
+                                    name</label>
+                                <input type="text" id="input-last-name" class="inp-control inp-control-alternative"
+                                    placeholder="Last name" value="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="inp-group">
+                                    <label class="inp-control-label" for="input-password">Password
+                                    </label>
+                                    <input type="password" id="input-Password"
+                                        class="inp-control inp-control-alternative" placeholder="Password" value="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="inp-group">
+                                    <label class="inp-control-label" for="input-Confirm-Password">Confirm
+                                        Password
+                                    </label>
+                                    <input type="password" id="input-Confirm-Password"
+                                        class="inp-control inp-control-alternative" placeholder="Confirm Password"
+                                        value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="inp-group">
+                                    <label class="inp-control-label" for="input-Dte-of-birth">Date of Birth
+                                    </label>
+                                    <input type="text" id="input-of-birth"
+                                        class="inp-control inp-control-alternative" placeholder="Date of birth"
+                                        value="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="inp-group">
+                                    <label class="inp-control-label" for="input-Age">Age
+                                    </label>
+                                    <input type="text" id="input-Age" class="inp-control inp-control-alternative"
+                                        placeholder="Age" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Address -->
+                        <h3 class="heading-small text-muted mb-4">Contact information</h3>
+                        <div class="pl-lg-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="inp-group">
+                                        <label class="inp-control-label" for="input-address">Address</label>
+                                        <input id="input-address" class="inp-control inp-control-alternative"
+                                            placeholder="Home Address" value="" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="inp-group">
+                                        <label class="inp-control-label" for="input-city">City</label>
+                                        <input type="text" id="input-city"
+                                            class="inp-control inp-control-alternative" placeholder="City" value="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="inp-group">
+                                        <label class="inp-control-label" for="input-country">Country</label>
+                                        <input type="text" id="input-country"
+                                            class="inp-control inp-control-alternative" placeholder="Country"
+                                            value="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="inp-group">
+                                        <label class="inp-control-label" for="input-country">Postal
+                                            code</label>
+                                        <input type="number" id="input-postal-code"
+                                            class="inp-control inp-control-alternative" placeholder="Postal code">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <button ID="save"  class="btn btn-primary col-lg-3 col-12 mb-2 "  runat="server" Text="Save" OnClick="save_Click">Save</button>
+                                        <button class="btn btn-danger col-lg-3 col-12 mb-2"  runat="server" Text="Cancel" OnClick="cancel_Click">cancel</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea  class="text_box inp-control inp-control-alternative col-9 mb-2  " cols="num" rows="10" placeholder="Enter Your comment " required ></textarea>
+                                        <button  class="btn btn-primary col-lg-3 col-12">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+  </body>
+</html> 

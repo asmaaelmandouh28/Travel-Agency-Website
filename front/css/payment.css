@@ -1,0 +1,399 @@
+:root{
+    --dark-color:#19283f; 
+    --but-color:#fff; 
+    /* --main-color:#f81c1c ; */
+    --main-color:#407BFF ;
+    --textColor:#ccc;
+    
+--maincolor:#000;
+--buttonColor:#03a9f4;
+
+--section-padding: 60px;
+--section-background: #f6f6f6;
+--section-margin: 100px;
+--main-duration: 0.3;
+
+}
+
+/* com */
+.fou:focus{
+    outline: none;
+    border-color:red;
+}
+
+/* com */
+
+/* start navbar */
+/* .navbar{
+    background-color:var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+
+.navbar .lang {
+    border-left: 1px solid var(--main-color);
+}
+.navbar .lang svg{
+    color: var(--main-color);
+}
+
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+
+}
+.navbar .navbar-toggloer:focus{
+    box-shadow: none;
+}
+.btn_col{
+    background: none;
+    color: var(--but-color);
+    outline:none;
+}
+.btn_col:hover{
+    background: none;
+    color: var(--but-color);
+    border-color: var(--main-color);
+} */
+/* End navbar */
+/* payment */
+.payment{
+    height: calc(100vh);
+    background: var(--section-background);
+
+}
+.payment .container
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment .detail{
+
+    height: 100%;
+    display: flex;
+
+}
+.payment .detail .row .side .bu{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--buttonColor);
+}
+.payment .detail .row .side .text-body{ 
+padding: 0;
+}
+.payment .detail .row .side p{
+    color: var(--textColor);
+    font-size: 12px;
+}
+
+.payment .detail .row .side img{
+    width: 65px;
+    position: absolute;
+}
+.payment .detail .row .side input{
+    height: 45px;
+    border: 1px solid var(--textColor);
+    border-radius: 5px;
+    padding-left: 80px;
+    font-size: 20px;
+    outline:none;
+    color: #000;
+    font-weight: bold;
+}
+
+.payment .detail .row .side .cvv-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0;
+    padding-right: 5px;
+} 
+
+.payment .detail .row .side .cvv-number input ,
+.payment .detail .row .side .pass-number input
+{
+    width: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+} 
+
+.payment .detail .row .side .text-body svg{ 
+    width: 10%;
+    font-size: 20px;
+    color: var(--textColor);
+    cursor: pointer;
+}
+.payment .detail .row .side .expir-date {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 4%;
+}
+.payment .detail .row .side .expir-date input{
+    width: 48%;
+    padding-left: 0;
+    text-align: center;
+} 
+.payment .detail .row .side .expir-date p{
+font-size: 20px;
+font-weight: bold;
+color: #000;
+align-self:flex-end ;
+
+} 
+
+.payment .detail .row .side .pass-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 45px;
+    padding-right: 5px;
+} 
+
+
+.payment .detail .row .buts  {
+    padding: 0;
+}
+.payment .detail .row .buts  .bu_py input ,
+.payment .detail .row .buts  .bu_ca input
+{
+    width: 100%;
+    outline: none;
+    height: 45px;
+    border-radius: 5px;
+    border-color: var(--textColor);
+    background-color: var(--main-color);
+    color: var(--but-color);
+    font-weight: bold;
+}
+.payment .detail .row .buts  .bu_ca input
+{
+background-color:var(--dark-color);
+
+
+}
+
+
+.payment .container .div-all{
+    height: 75%;
+    background: white;
+    padding: 30px;
+    box-shadow: 4px 1px 14px 13px #00000024;
+    width: 90%;
+    border-radius: 10px;
+}
+.payment .container .detail .div-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.payment .amou {
+    display: flex;
+    align-items: flex-end;
+}
+.payment .amou h5{
+    display: inline-block
+}
+.payment .amou .back{
+background-color: var(--textColor);
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+height: 77%;
+width: 100%;
+border-radius: 10px;
+position: relative;
+}
+
+.payment .amou .back .t_cs{
+    font-size: 1rem;
+    color:#757575;
+    text-transform: capitalize;
+}
+.payment .amou .back .crdit {
+    position: absolute;
+    background: white;
+    width: 70%;
+    height: 70%;
+    top: -30%;
+    left: 50%;
+    margin-left: -35%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 3px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px 0;
+    background: linear-gradient(to bottom, #0000007a, transparent), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(330%) brightness(1000%);
+}
+.payment .amou .back .crdit .im{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment .amou .back .crdit .im p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+.payment .amou .back .crdit .im div h6{
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.payment .amou .back .crdit .wav{
+display: flex;
+justify-content: space-between;
+font-size: 30px;
+}
+
+.payment .amou .back .crdit .nu p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+.payment .amou .back .crdit .nu p:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.payment .amou .back .se ,
+.payment .amou .back .tot{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.payment .amou .back .se h5:last-child{
+    font-size: 20px;
+    color:var(--dark-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.payment .amou .back .se h5:last-child{
+    font-size: 1rem;
+    color:var(--dark-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.payment .amou .back .hr{
+    border-bottom: 2px dashed;
+    border-bottom-color: #9e9e9e;
+    margin: 50px 0;
+    position: relative;
+}
+.payment .amou .back .hr::after{
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    bottom: -30px;
+    left: -32px;
+    border-radius: 50%;
+}
+.payment .amou .back .hr::before{
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    bottom: -30px;
+    right: -32px;
+    border-radius: 50%;
+}
+
+
+.payment .amou .back .tot div:first-child h4 {
+    font-size: 15px;
+    color: #757575;
+}
+.payment .amou .back .tot div:first-child p{
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.payment .amou .back .tot div:first-child p span{
+    font-size: 15px;
+    color:#757575;
+}
+.payment .amou .back .tot div:last-child{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+    
+
+@media (max-width: 767px){
+    .payment .row-cont {
+        justify-content: center;
+    }
+    .payment .amou .back .crdit {
+        display: none;
+    }
+    .payment .container .div-all {
+        height: fit-content;
+        padding: 21px;
+        width: 95%;
+    }
+    .payment .amou .back {
+        height: fit-content;
+        margin-top: 50px;
+        padding-top: 10px;
+    }
+    .payment .detail .row .side input {
+        font-size: 15px;
+    }
+}
+
+/* media */
+@media (min-width: 768px) and (max-width :1023px ){
+    .payment .container .div-all {
+        height: fit-content;
+        padding: 21px;
+        width: 95%;
+    }
+    .payment .amou .back {
+        height: fit-content;
+        margin-top: 195px;
+        padding-top: 65px;
+    }
+    .payment .amou .back .crdit {
+        top: -52%;
+    }
+}
+/* payment */
+

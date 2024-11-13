@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="weeeeebb.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+  
+     <!-- css links  -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js counter-->
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- js slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <asp:ContentPlaceHolder ID="inhead" runat="server"></asp:ContentPlaceHolder>
+</head>
+ <body class="bg-light">
+      <form id="form1" runat="server">
+    
+        <!-- header-->
+     <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">logo</a>
+
+          
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+             <a class="nav-link p-2 p-lg-3" href="index.aspx">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="about.aspx">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="error.aspx">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="error.aspx">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="contactus.aspx">Contact</a>
+            </li>
+          </ul>
+          <div class="dropdown mb-2 mb-lg-0">
+            <a class="btn btn_col dropdown-toggle me-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+          
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">English - En</a></li>
+                <li><a class="dropdown-item" href="#"> العربية - AR</a></li>
+              </ul>
+            </div>
+          <a class="btn btn-primary fs-6 rounded-4 main-btn fs-6" href="login.aspx"
+            >login
+          </a>
+        </div>
+      </div>
+    </nav>
+        
+        <!--<header>
+     <header>
+    <div id="carouselExampleDark" class="carousel carousel-light slide vh-50" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active h-100" data-bs-interval="10000">
+          <img src="images/div2.jpg" class="d-block w-100" alt="..."/>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Explore the world with our guides</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item h-100" data-bs-interval="2000">
+          <img src="images/cam.jpg" class="d-block w-100" alt="..."/>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fw-bold fs-1">Start enjoying your dream vacation </h5>
+            <p>no matter where you want to go , we are here to help get your there </p>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/sky.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fw-bold fs-1">Life is too much short but the world is wide!</h5>
+            <p>if you want t achive success in your than build your skills t anything. which is always updted and bring joy with your  life</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    </header> -->
+       <asp:ContentPlaceHolder ID="flnosss" runat="server"></asp:ContentPlaceHolder>
+        <!-- footer 
+    <footer class="mt-5 pt-4">
+      <div class="container">
+        <div class="email">
+            <p >sign up to get first access, about new style , sales and event.</p>
+            <div class="ee">
+              
+
+
+                <asp:TextBox ID="emaill" runat="server" placeholder="Enter Your Email address" TextMode="Email"></asp:TextBox>  
+              
+              
+                <asp:Button ID="mainb" runat="server" Text="submit" OnClick="mainb_Click" />
+                
+           </div>
+        </div>
+        <div class="icons">
+          <div class="D">
+            <hr />
+            <h2>var</h2>
+            <hr />
+          </div>
+          <div class="low-div">
+            <div class="fot-nav">
+              <ul>
+                <li><a href="about.aspx">about us </a></li>
+                <li><a href="contactus.aspx">contact </a></li>
+                <li><a href="">privacy policy</a></li>
+                <li><a href="">team</a></li>
+              </ul>
+            </div>
+            <div class="icon">
+              <a href="">
+                <i class="fa-brands fa-instagram fa-1x"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-facebook-f fa-1x"></i>
+              </a>
+              <a href=""> <i class="fa-brands fa-twitter"></i></a>
+              <a href="">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="copy">
+              <p>
+                Made with <span>&hearts;</span> by avengers 2022 &copy; all
+                right reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>-->
+        <!--js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/app.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- js slider -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <script>
+         var swiper = new Swiper(".mySwiper", {
+             slidesPerView: 1,
+             spaceBetween: 30,
+             pagination: {
+                 el: ".swiper-pagination",
+                 clickable: true,
+             },
+             breakpoints: {
+                 600: {
+                     slidesPerView: 2,
+                 },
+             },
+         });
+    </script>
+
+  <!-- js counter -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script>
+      jQuery(document).ready(function ($) {
+          $('.counter').counterUp({
+              delay: 4,
+              time: 10
+          });
+      });
+  </script>
+    
+          <asp:ContentPlaceHolder ID="fela5errr" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

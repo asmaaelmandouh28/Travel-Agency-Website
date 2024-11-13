@@ -1,0 +1,266 @@
+:root{
+    --dark-color:#19283f; 
+    --but-color:#fff; 
+    --main-color:#407BFF ;-
+    
+-textColor:#ccc;
+--maincolor:#000;
+--buttonColor:#03a9f4;
+
+--section-padding: 60px;
+--section-background: #f6f6f6;
+--section-margin: 100px;
+--main-duration: 0.3;
+
+}
+/* vars */
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: "Work Sans", sans-serif;
+
+}
+
+.container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* small */
+
+@media (min-width: 768px) {
+.container {
+width: 750px;
+}
+}
+/* medium */
+@media (min-width: 992px) {
+.container {
+width: 970px;
+}
+}
+/* large */
+@media (min-width: 1200px) {
+.container {
+width: 1170px;
+}
+}
+
+/* End Golbal Rules  */
+/* Start Conponents */
+
+ul {
+list-style: none;
+}
+/* end Conponents */
+
+body{
+height: 100vh;
+display: grid;
+grid-template-rows: auto 1fr auto;
+}
+
+/* start Header  */ 
+
+
+
+
+/* start navbar */
+.navbar{
+    background-color:var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+
+.navbar .lang {
+    border-left: 1px solid var(--main-color);
+}
+.navbar .lang svg{
+    color: var(--main-color);
+}
+
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+
+}
+.navbar .navbar-toggloer:focus{
+    box-shadow: none;
+}
+.btn_col{
+    background: none;
+    color: var(--but-color);
+    outline: none;
+}
+.btn_col:hover{
+    background: none;
+    color: var(--but-color);
+    border-color: var(--main-color);
+    outline: none;
+}
+.btn_col:active{
+    background: none;
+    color: var(--but-color);
+    border-color: var(--main-color);
+    outline: none;
+}
+
+/*  Start head section */
+.sec{
+display: flex;
+}
+
+.sec .container{
+display: flex;
+align-items: center;
+}
+
+.sec aside{
+width: 48%;
+height: 100%;
+
+}
+.sec .sec-for {
+background-color: var(--main-color);
+}
+.sec .image{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sec .image img{
+width: 140%;
+}
+.sec .asi-for{
+display: flex;
+justify-content: center;
+}
+.sec .asi-for {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 70%;
+}
+
+.sec .asi-for  h2 {
+    font-size: 40px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.sec .asi-for  .inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    row-gap: 7px;
+    width: 60%;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.sec .asi-for  .inp:last-child{  
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.sec .asi-for  .inp label{
+    font-size: 15px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.sec .asi-for  .inp input{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid var(--textColor);
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    color: #424242;
+}
+
+.sec .asi-for  .inp textarea{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    padding: 10px;
+    resize: none; 
+    border: 1px solid var(--textColor);
+}
+.sec .asi-for  .inp textarea:focus ,
+.sec .asi-for  .inp input:focus {
+    outline: none;
+    border-color: var(--main-color);
+}
+
+.sec .asi-for  .sub input{
+    background:black;
+    color: var(--section-background);
+    font-weight: 100;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    transition: .6s;
+    align-items: center;
+}
+
+.sec .asi-for  .sub input:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 50px;
+    width: 200px; 
+    box-shadow: 0 9px 20px 0 rgb(0 , 0 , 0 , 50%);
+}
+
+/* smart phones  */
+@media (max-width: 767px){
+
+.sec {
+padding: 30px 0;
+}
+.sec .container{
+flex-flow: column-reverse;
+}
+.sec .asi-for {
+width: 100%;
+
+}
+.sec .image {
+    width: 71%;
+}
+.sec .asi-for {
+    width: 100%;
+}
+}
+
+/*tablest */
+@media (min-width: 768px) and (max-width :1023px ){
+.sec {
+background-color: var(--main-color);
+}
+}
+
+
